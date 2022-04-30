@@ -43,12 +43,16 @@ def stats(update, context):
     mem_t = get_readable_file_size(memory.total)
     mem_a = get_readable_file_size(memory.available)
     mem_u = get_readable_file_size(memory.used)
-    stats = f'<b>⏰Bot Uptime:</b> {currentTime}\n'\
+    stats = f'<b>•• ━━ Red Club X Mirror Bot ━━ ••</b>\n\n'\
+            f'<b>⏰Bot Uptime:</b> {currentTime}\n'\
             f'<b>☬OS Uptime:</b> {osUptime}\n\n'\
+            f'<b>•• DISK INFO ••</b> \n\n'\
             f'<b>📁Total Disk Space:</b> {total}\n'\
             f'<b>☠Used:</b> {used} | <b>✨Free:</b> {free}\n\n'\
+            f'<b>•• DATA USAGE ••</b> \n'\
             f'<b>📤Upload:</b> {sent}\n'\
             f'<b>📥Download:</b> {recv}\n\n'\
+            f'<b>•• SERVER STATS ••</b> \n'\
             f'<b>🖥️CPU:</b> {cpuUsage}%\n'\
             f'<b>📦RAM:</b> {mem_p}%\n'\
             f'<b>📀DISK:</b> {disk}%\n\n'\
